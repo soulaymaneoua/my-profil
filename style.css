@@ -1,0 +1,98 @@
+body  {
+  background-image: url("images/apple.jpg"); 
+  color: rgb(30,30, 30);
+  font-family: 'Helvetica';
+  font-size: 16px;
+	}
+
+h1, h2, h3 {
+	font-family:monospace;
+	font-size: 23px;
+	}
+
+a { text-decoration: none;
+	color: blanchedalmond;
+	}
+
+
+a:hover {
+  color: hotpink;
+  text-decoration: none;
+ }
+
+
+ div{
+	text-align:justify-all;
+	text-justify:values;
+}
+
+ /*Custom design with class*/
+
+ .container{
+ 	width: 800px;
+ 	margin:40px auto;
+ }
+
+@media(max-width: 650px){
+ 	.container{
+ 		width: 350px
+ 	}
+ }
+
+ @media(max-width: 500px){
+ 	.container{
+ 		width: 430px
+ 	}
+
+ }
+
+ .card-white{
+ 	background-color: ghostwhite;
+    padding: 50px;
+    box-shadow: 15px 10px 35px rgb(0 0 0 / 10%);
+    border-radius: 5px;
+    text-align: center;
+    margin: 20px;
+ }
+
+.img-circle{
+	border-radius: 100%;
+}
+
+.btn-blue{
+	background-color:black;
+	color: whitesmoke;
+	padding: 15px 30px;
+	border-radius: 10px;
+}
+
+.btn-blue:hover {
+	background-color:blue;
+	color: white;
+}
+
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li{
+	display: inline;
+	padding: 15px;
+}
+
+.list-inline i{
+	font-size: 50px;
+	color: grey;
+}
+
+.list-inline i:hover {
+	font-size: 50px;
+	color: skyblue;
+}
+
+#introduction p {
+	margin-bottom: 40px;
+}
+
